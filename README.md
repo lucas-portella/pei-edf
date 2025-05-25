@@ -11,8 +11,8 @@ cadastra questionários e fases para alunos que se inscrevem no site.
 Mais informações no diretório ``documentacao``.
 
 ## Requisitos
-* PHP na versão 
-* MySQL na versão
+* PHP na versão 8.2.28
+* MySQL na versão 8.0.42
 
 Mais informações em breve.
 
