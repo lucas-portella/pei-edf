@@ -12,11 +12,14 @@
 	$sql = "SELECT * FROM Alunos where Email = \"$email\"";
 	$resultado = $conn->query($sql);
 
-	if($resultado->um_rows > 0)
+	if($resultado->um_rows > 0) {
+		conn->close();
 		die("Email já cadastrado.");
+	}
 
 
 	$sql = "INSERT INTO Alunos (Nome, Sobrenome, Email, Senha) VALUES (\"$nome\", \"$sobrenome\", \"$email\", \"$senha\")";
+	$conn->close();
 
 	if ($conn->query($sql) === TRUE) {
 		session_start();

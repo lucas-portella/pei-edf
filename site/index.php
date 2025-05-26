@@ -4,7 +4,8 @@
 	</head>
 
 	<body>
-		<h1>Olá! Você está autenticado.</h1>
+		<?php echo "<h1>Bem-vindo, " . $_SESSION['usuario_autenticado'] ."!</h1>"; ?>
+		<a href="src/deslogar.php">Deslogar</a> 
 	</body>
 
 </html>
