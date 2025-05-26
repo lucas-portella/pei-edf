@@ -1,0 +1,5 @@
+[Sun May 25 20:57:15 2025] PHP 8.2.28 Development Server (http://localhost:8000) started
+[Sun May 25 20:57:23 2025] [::1]:51650 Accepted
+[Sun May 25 20:57:23 2025] [::1]:51650 [404]: GET /index.html - No such file or directory
+[Sun May 25 20:57:23 2025] [::1]:51651 Accepted
+[Sun May 25 20:57:23 2025] [::1]:51650 Closing

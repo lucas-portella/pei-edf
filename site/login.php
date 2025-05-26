@@ -1,6 +1,6 @@
 <html>
 	<body>
-		<h1>Pagina de autenticacao</h1>
+		<h1>Página de autenticação</h1>
 		<form method="POST" action="credencia.php">
 			<p>Email do aluno:</p>
 			<input type="text" id="email-usuario" placeholder="aluno@exemplo.com" required>

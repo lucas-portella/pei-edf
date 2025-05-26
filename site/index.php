@@ -1,10 +1,4 @@
-<?php
-	session_start();
-	
-	if (!isset($_SESSION['usuario_autenticado'])) {
-		header("Location: login.php");
-	}
-?>
+<?php include "src/verifica-sessao.php" ?>
 <html>
 	<head>
 	</head>
