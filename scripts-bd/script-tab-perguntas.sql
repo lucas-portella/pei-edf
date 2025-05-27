@@ -1,0 +1,8 @@
+USE pei_edf;
+
+CREATE TABLE Perguntas (
+	IdPergunta INTEGER NOT NULL PRIMARY KEY,
+	IdNivel INTEGER NOT NULL,
+	IdResposta INTEGER NOT NULL,
+	StrPergunta VARCHAR(255)
+);

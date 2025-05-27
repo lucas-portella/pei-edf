@@ -1,0 +1,6 @@
+USE pei_edf;
+
+CREATE TABLE Niveis (
+	IdNivel INTEGER NOT NULL PRIMARY KEY,
+	TaxaAprovacao INTEGER NOT NULL
+);
