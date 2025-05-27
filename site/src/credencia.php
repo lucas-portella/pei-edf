@@ -14,11 +14,9 @@
 		if ($senha === $linha['Senha']) {
 				$_SESSION['usuario_autenticado'] = $linha['Nome'];
 				header("Location: /index.php");
-		}
-		else {
-			echo "Email ou senha incorretos.";			
+				exit();
 		}
 	}
-	echo "Email não cadastrado";
 	
+	header("Location: /login.php?erroAut=1");	
 ?>

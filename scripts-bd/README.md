@@ -15,3 +15,21 @@ Tabela com informações dos alunos cadastrados
 * Sobrenome
 * Email
 * NivelAtual
+
+### Tabela: Niveis
+Tabela com os níveis cadastrados
+* IdNivel
+* TaxaAprovacao
+
+### Tabela: Perguntas
+Tabela com as perguntas dos questionários (níveis)
+* IdPergunta
+* IdNivel
+* IdResposta
+* StrPergunta
+
+### Tabela: Respostas
+Tabela com as respostas dos questionários (níveis)
+* IdResposta
+* IdPergunta
+* StrResposta
