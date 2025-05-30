@@ -9,7 +9,7 @@
 	$senha_form = $_POST["senha-professor"];
 
 	if (strcmp($EMAIL, $email_form) == 0 && strcmp($SENHA,$senha_form) == 0) {
-		$_SESSION["professor-credenciado"] = "Professor";	
+		$_SESSION["professor-autenticado"] = "Professor";	
 		header("Location: /area-professor.php");
 	}	
 	else {

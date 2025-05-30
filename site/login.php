@@ -11,6 +11,6 @@
 		</form>
 		
 		<p>Ainda não cadastrado? <a href="inscricao.php">Inscreva-se aqui.</a></p>
-		<p>Você é professor? <a href="login-professor.php">Acesse a área do professor.</a></p>
+		<p>Você é professor? <a href="area-professor.php">Acesse a área do professor.</a></p>
 	</body>
 </html>
